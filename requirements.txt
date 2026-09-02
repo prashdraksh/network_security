@@ -2,5 +2,9 @@ python-dotenv
 numpy
 pandas
 setuptools
+pymongo[srv]
+pymongo
+certifi
+scikit-learn
 
 #-e .
