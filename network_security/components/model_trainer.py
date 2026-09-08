@@ -29,12 +29,12 @@ from urllib.parse import urlparse
 import dagshub
 dagshub.init(repo_owner='prashdraksh', repo_name='network_security', mlflow=True)
 
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/prashdraksh/network_security"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/prashdraksh/network_security.mlflow/"
 os.environ["MLFLOW_TRACKING_USERNAME"]="prashdraksh"
 os.environ["MLFLOW_TRACKING_PASSWORD"]="2d1411779e0f93c136c9253116bb84d5d32174d7"
 
 
-
+    
 
 
 class ModelTrainer:
