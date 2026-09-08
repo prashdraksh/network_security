@@ -6,5 +6,11 @@ pymongo[srv]
 pymongo
 certifi
 scikit-learn
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+mlflow
 
 #-e .
