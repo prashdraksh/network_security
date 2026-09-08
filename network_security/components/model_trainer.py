@@ -34,7 +34,7 @@ os.environ["MLFLOW_TRACKING_USERNAME"]="prashdraksh"
 os.environ["MLFLOW_TRACKING_PASSWORD"]="2d1411779e0f93c136c9253116bb84d5d32174d7"
 
 
-    
+
 
 
 class ModelTrainer:
@@ -46,7 +46,7 @@ class ModelTrainer:
             raise CustomException(e,sys)
         
     def track_mlflow(self,best_model,classificationmetric):
-        mlflow.set_registry_uri("https://dagshub.com/krishnaik06/networksecurity.mlflow")
+        mlflow.set_registry_uri("https://dagshub.com/prashdraksh/network_security.mlflow")
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         with mlflow.start_run():
             f1_score=classificationmetric.f1_score
